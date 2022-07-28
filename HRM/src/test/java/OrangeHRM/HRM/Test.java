@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import junit.framework.Assert;
 
 public class Test {
 
@@ -43,7 +44,7 @@ public class Test {
 		String jobTitleF= e.getText();
 		System.out.println(jobTitleF);
 
-		//Assert.assertEquals(jobTitle, jobTitleF);
+		Assert.assertEquals(jobTitle, jobTitleF);
 	}
 	
 	
