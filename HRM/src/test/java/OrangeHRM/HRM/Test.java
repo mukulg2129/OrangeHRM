@@ -44,7 +44,7 @@ public class Test {
 		String jobTitleF= e.getText();
 		System.out.println(jobTitleF);
 
-		Assert.assertEquals(jobTitle, jobTitleF);
+	Assert.assertEquals(jobTitle, jobTitleF);
 	}
 	
 	
